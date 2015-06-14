@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="query_array">
+        <item>/openrdf-sesame</item>
+        <item>Seconda query</item>
+        <item>Terza query</item>
+        <item>Quarta query</item>
+    </string-array>
+</resources>
