@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="query_array">
-        <item>/openrdf-sesame</item>
-        <item>Seconda query</item>
-        <item>Terza query</item>
-        <item>Quarta query</item>
+        <item>Seleziona tutti gli studenti</item>
+        <item>Concerto con voto medio superiore a 3</item>
+        <item>Calcola voto medeio dei concerti</item>
+        <item>Eventi musicali con voto medio superiore a 3 ad Agrigento</item>
+        <item>Concerti con voto medio superiore a 3 Agrigento</item>
+        <item>Eventi in cui partecipano i giovani</item>
     </string-array>
 </resources>

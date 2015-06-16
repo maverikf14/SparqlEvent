@@ -88,41 +88,14 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="commons-io-2.4" level="project" />
-    <orderEntry type="library" exported="" name="sesame-rio-api-2.8.3" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.2.4" level="project" />
+    <orderEntry type="library" exported="" name="httpcore-4.4.1" level="project" />
     <orderEntry type="library" exported="" name="volley" level="project" />
+    <orderEntry type="library" exported="" name="httpclient-4.5" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-22.2.0" level="project" />
-    <orderEntry type="library" exported="" name="sesame-queryalgebra-model-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-repository-http-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-rio-binary-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-http-protocol-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-queryresultio-sparqlxml-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="appcompat-v7-22.2.0" level="project" />
-    <orderEntry type="library" exported="" name="sesame-queryparser-serql-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-queryparser-sparql-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-repository-sparql-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-util-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-model-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-rio-languages-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-sail-inferencer-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-queryresultio-api-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-sail-nativerdf-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-rio-turtle-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-http-client-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-queryalgebra-evaluation-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-repository-sail-2.8.3" level="project" />
     <orderEntry type="library" exported="" name="support-v4-22.2.0" level="project" />
-    <orderEntry type="library" exported="" name="sesame-query-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-repository-api-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-rio-trig-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="commons-codec-1.10" level="project" />
-    <orderEntry type="library" exported="" name="sesame-rio-ntriples-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-sail-memory-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-rio-rdfxml-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-rio-datatypes-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="slf4j-api-1.7.10" level="project" />
-    <orderEntry type="library" exported="" name="sesame-sail-api-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="1_sesame-sail-api-2.8.3" level="project" />
-    <orderEntry type="library" exported="" name="sesame-queryparser-api-2.8.3" level="project" />
+    <orderEntry type="library" exported="" name="openrdf-sesame-2.8.3-onejar" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-api-1.7.12" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-22.2.0" level="project" />
   </component>
 </module>

@@ -61,5 +61,5 @@
         android:width="190dp"
         android:layout_alignBottom="@+id/siteAddressLabel"
         android:layout_alignStart="@+id/spinner"
-        android:text="192.168.0.113:8080" />
+        android:text="192.168.0.114:8080" />
 </RelativeLayout>
