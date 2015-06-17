@@ -1,16 +1,19 @@
-package com.marco.sparqlevent.JSONWrapper.averageRateConcertQuery;
+package com.marco.sparqlevent.JSONWrapper.selectEventInCity;
 
 import com.google.gson.annotations.SerializedName;
 import com.marco.sparqlevent.JSONWrapper.HeadWrapper;
 
 /**
- * Created by Utente on 16/06/2015.
+ * Created by Utente on 17/06/2015.
  */
-public class AverageVoteConcertQuery {
+public class selectEventInCityWrapper {
     @SerializedName("head")HeadWrapper head;
-    @SerializedName("results")ResultARCQuery results;
+    @SerializedName("results")ResultSEICity results;
 
-    public AverageVoteConcertQuery(HeadWrapper head, ResultARCQuery results) {
+    public selectEventInCityWrapper() {
+    }
+
+    public selectEventInCityWrapper(HeadWrapper head, ResultSEICity results) {
         this.head = head;
         this.results = results;
     }
@@ -23,17 +26,17 @@ public class AverageVoteConcertQuery {
         this.head = head;
     }
 
-    public ResultARCQuery getResults() {
+    public ResultSEICity getResults() {
         return results;
     }
 
-    public void setResults(ResultARCQuery results) {
+    public void setResults(ResultSEICity results) {
         this.results = results;
     }
 
     @Override
     public String toString() {
-        String tmp = "AverageVoteConcertQueryWrapper: " + "\n" +
+        String tmp = "selectEventInCityWrapper: " + "\n" +
                 "head: " + head + "\n" +
                 "results: " + results + "\n";
         return tmp;

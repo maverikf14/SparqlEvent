@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.marco.sparqlevent.QueryMakerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Seleziona query:"
+        android:id="@+id/queryLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Selezione Citta: "
+        android:id="@+id/cityLabel"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/queryLabel"
+        android:layout_alignStart="@+id/queryLabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Seleziona rate: "
+        android:id="@+id/rateLabel"
+        android:layout_below="@+id/eventTypeSpinner"
+        android:layout_alignStart="@+id/eventLabel" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/querySpinner"
+        android:layout_alignTop="@+id/queryLabel"
+        android:layout_toEndOf="@+id/queryLabel"
+        android:layout_marginStart="29dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/citySpinner"
+        android:layout_alignTop="@+id/cityLabel"
+        android:layout_alignStart="@+id/querySpinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Indirizzo"
+        android:id="@+id/addressLabel"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/rateLabel" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressText"
+        android:text="192.168.0.114:8080"
+        android:layout_alignTop="@+id/addressLabel"
+        android:layout_alignStart="@+id/eventTypeSpinner" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invia query"
+        android:id="@+id/queryButton"
+        android:layout_below="@+id/addressLabel"
+        android:layout_alignStart="@+id/addressLabel"
+        android:layout_marginTop="37dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tipo Evento"
+        android:id="@+id/eventLabel"
+        android:layout_alignTop="@+id/eventTypeSpinner"
+        android:layout_alignStart="@+id/cityLabel" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventTypeSpinner"
+        android:layout_below="@+id/citySpinner"
+        android:layout_alignStart="@+id/citySpinner" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rateAverageText"
+        android:layout_alignTop="@+id/rateLabel"
+        android:layout_alignStart="@+id/eventTypeSpinner"
+        android:layout_alignEnd="@+id/addressText"
+        android:editable="false"
+        android:inputType="numberDecimal"
+        android:text="2.3" />
+
+</RelativeLayout>
